@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./index.js"></script>
+    <style>
+        @font-face {
+            font-family: Arbeit-regular;
+            src: url(./assets/Myfont_Arbeit-Regular.otf);
+        }
+        @font-face {
+            font-family: Galano;
+            src: url(./assets/Myfont-\ Galano\ Classic\ Bold.otf);
+        }
+        h1,h2,h4,h5{
+            font-family: Galano;
+        }
+        p, button, a{
+            font-family: Arbeit-regular;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full">
+        <div class="header" id="hed">
+            <a href="#"><img src="https://assets.website-files.com/61f063412698c3c0331848b0/6225831abd957d511480da22_Logo.svg"
+                    alt=""></a>
+            <nav class="nav_menu">
+                <a href="./2ndpage.html" class="nav-link">For job seekers</a>
+                <a href="#" class="nav-link">For companies</a>
+                <div class="nav-buttons bttn">
+                   <div class="btn-white"><a href="#">Log in</a></div>
+                    <div class="btn-black"><a href="#">Sign up</a></div>
+                </div>
+            </nav>
+            <div class="humburger" id="ham" onclick="toggleMenu()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+       
+        <div class="mode">
+            <div class="mod" id="mod">
+                <div class="mod-links">
+                    <a href="./2ndpage.html">For job seekers</a>
+                    <a href="#">For companies</a>
+                </div>
+                <div class="mod-btn">
+                    <div class="btn-white">
+                        <a href="#">Log in</a>
+                    </div>
+                    <div class="btn-black">
+                        <a href="#">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page1">
+
+            <div class="page1-split">
+                <div class="text-holder">
+                    <div class="page1-text">
+                        <h1>Build your team, find your mission</h1>
+                    </div>
+                    <div style="margin-bottom: 55px;" class="page1-text">
+                        <p>Join the world's #1 startup community specialized in technical talent and opportunities
+                        </p>
+                    </div>
+                    <div class="bttn">
+                        <div class="btn-black pge1-btn"><a href="#">Find a job</a></div>
+                       <div class="btn-white pge1-btn"> <a href="#">Find a talent</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page1-split">
+                <div class="img-holder">
+                    <img src="/images/image1.png" alt="" class="img1">
+                </div>
+            </div>
+        </div>
+
+        <div class="register">
+            <div class="register-container">
+                    <input type="email" id="email" name="email" placeholder="Your Email" class="btn-email reg bn">
+                    <div class="regi">
+                        <button class="btn-signup reg bn">Sign up</button>
+                        <p class="reg" style="text-align: center; margin: 0px;">or</p>
+                        <button class="glogo reg bn">
+                            <div style="margin-right: 5px;"><i class="fab fa fa-google fa-1x"></i></div>
+                            <div>Sign up with Google</div>
+                        </button>
+                    </div>
+            </div>
+        </div>
+
+        <div class="visitus">
+            <div>
+                <p>Looking for AngelList Venture? Visit <a href="#">angellist.com</a></p>
+            </div>
+            <div>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="info1">
+                <div class="info-content">
+                    <h1>130K +</h1>
+
+                    <h4>Tech Jobs</h4>
+                </div>
+            </div>
+            <div class="info2" id="count">
+                <div class="info-content">
+                    <h1 id="counter"></h1>
+                    <h4>Matches made</h4>
+                </div>
+            </div>
+            <div class="info3">
+                <div class="info-content">
+                    <h1>8M +</h1>
+                    <h4>Startup-ready candidates</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slide-left"></div>
+            <div class="slide-track">
+                <div class="slide"><img src="/images/61f0a5fe2e25d76ba0e6a80b_g3707.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a609503359b5679def8f_Group 47.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a6120037c27a023bf1a5_Group-1.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a621a2cb9a2603a76aa3_Group.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a62b8b1df74b66ae5cd5_Vector-1.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a634a9c541bd29ce0de5_Vector-2.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a63ea2cb9a38fba76ae4_Vector-3.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a6464090e96adb03e399_Vector-4.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a650c44b7f3c0981c997_Vector-5.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a65ac32e1d0425461658_Vector.svg" alt=""> </div>
+                <div class="slide"><img src="/images/61f0a5fe2e25d76ba0e6a80b_g3707.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a609503359b5679def8f_Group 47.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a6120037c27a023bf1a5_Group-1.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a621a2cb9a2603a76aa3_Group.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a62b8b1df74b66ae5cd5_Vector-1.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a634a9c541bd29ce0de5_Vector-2.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a63ea2cb9a38fba76ae4_Vector-3.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a6464090e96adb03e399_Vector-4.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a650c44b7f3c0981c997_Vector-5.svg" alt=""></div>
+                <div class="slide"><img src="/images/61f0a65ac32e1d0425461658_Vector.svg" alt=""> </div>
+            </div>
+            <div class="slide-right"></div>
+          </div>
+
+        <div class="page-temp">
+            <div class="page-temp-split-img">
+                <img src="/images/image2.png" alt="" class="big-img">
+            </div>
+            <div class="page-temp-split-text">
+               <div class="page-temp-text-container">
+                <div>
+                    <h5>GOT TALENT?</h5>
+                </div>
+                <div>
+                    <h1>Why job seekers love us</h1>
+                </div>
+                <div class="icon">
+
+                    <p>
+                        <img src="/images/61f862b55e16a8d836796253_Star.svg" alt="">
+                        <span> Unique jobs at startups and tech companies you can't find anywhere else</span>
+                    </p>
+
+                    <p>
+                        <img src="/images/620182ab7168b334bf1300a6_Click.svg" alt="">
+                        <span> Say goodbye to cover letters - your profile is all you need. One click to apply and you're done.</span>
+                    </p>
+
+                    <p>
+                        <img src="/images/61f862b4fe6ae663affa55fe_List.svg" alt="">
+                        <span>Everything you need to know to job search - including seeing salary and stock options upfront when looking</span>
+                    </p>
+
+                    <p>
+                        <img src="/images/62018322d06e2f664227ad9f_Connect.svg" alt="">
+                        <span>Connect directly with founders at top startups - no third party recruiters allowed</span>
+                    </p>
+                </div>
+                <div class="bttn">
+                    <div class="btn-white"><a href="#">Learn more</a></div>
+                    <div class="btn-black"><a href="#">Sign up now</a></div>
+                </div>
+               </div>
+            </div>
+        </div>
+
+        <div class="page-temp page-temp-reverse">
+            <div class="page-temp-split-text">
+                <div class="page-temp-text-container">
+                    <div>
+                        <h5>NEED TALENT?</h5>
+                    </div>
+                    <div>
+                        <h1>Why recruiters love us</h1>
+                    </div>
+                    <div class="icon">
+    
+                        <p>
+                            <img src="/images/61f863c03d68ace030138572_Team.svg" alt="">
+                            <span> 8 million responsive and startup-ready candidates, with all the information you need to vet them
+                            </span>
+                        </p>
+    
+                        <p>
+                            <img src="/images/61f86355582d73f01d090e35_Settings.svg" alt="">
+                            <span> Everything you need to kickstart your recruiting -get job posts, company branding, and HR tools set up within 10 minutes, for free
+                            </span>
+                        </p>
+    
+                        <p>
+                            <img src="/images/61f864866444d8a27519d48a_Template.svg" alt="">
+                            <span> A free applicant tracking system, or free integration with any ATS you may already use
+                            </span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Plus, we can do the vetting for you! With Curated, we review the world's top tech talent and highlight candidates directly to you 2x a week.
+                        </p>
+                    </div>
+                    <div class="bttn">
+                       <div class="btn-white"> <a href="#">Learn more</a></div>
+                       <div class="btn-black"> <a href="#">Sign up now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-temp-split-img">
+                <img src="/images/image3.png" alt="" class="big-img">
+            </div>
+        </div>
+
+        <div class="page-temp">
+            <div class="page-temp-split-img">
+                <div class="yt">
+                    <iframe src="https://www.youtube.com/embed/_7baCoOPafM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="big-img"></iframe>
+                </div>
+            </div>
+            <div class="page-temp-split-text">
+                <div class="page-temp-text-container">
+                    <div>
+                        <h5>INTRODUCING:</h5>
+                    </div>
+                    <div>
+                        <h1>REMOTE by AngelList Talent</h1>
+                    </div>
+                    <div class="icon">
+    
+                        <p>
+                            <img src="/images/61f864157eb9e9cccdf1e5c9_Toggle.svg" alt="" class="icon-svg">
+                            <span>
+                                Showcase & search by remote job preferences
+                            </span>
+                        </p>
+                        <p>
+                            <img src="/images/61f863c0acdf5061983ced50_Video Profile.svg" alt="" class="icon-svg">
+                            <span>
+                                Use engineering & video assessments to help showcase or evaluate skills
+                            </span>
+                        </p>
+                        <p>
+                            <img src="/images/61f862b568e35132688d6934_Unique Candidate.svg" alt="" class="icon-svg">
+                            <span>
+                                Top remote engineers across the US & outside of the US will be featured directly to companies hiring for their skillset
+                            </span>
+                        </p>
+                    </div>
+                    <div class="bttn">
+                        <div class="btn-white" style="width: 200px;"><a href="#">Learn more-job seekers</a></div>
+                       <div class="btn-white" style="width: 200px;"> <a href="#">Learn more-recruiters</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fromusers">
+            <div style="text-align: center;">
+                <h5>FROM OUR USERS</h5>
+            </div>
+            <div style="text-align: center; margin-bottom: 6%;">
+                <h1>
+                    Dreams do come true!
+                </h1>
+            </div>
+            <div class="box-container">
+                <div class="box-content">
+                    <img src="/images/62a195379a8eed7e1cc9580a_Quotes.svg" alt="">
+                    <p>I got my tech job on AngelList Talent 4 years ago and I'm still happy! Pays well,
+                        great culture, and unlimited PTO.</p>
+                </div>
+                <div class="box-content">
+                    <img src="/images/62a195379a8eed7e1cc9580a_Quotes.svg" alt="">
+                    <p>I love AngelList Talent. I got my current job at a startup entirely through
+                        AngelList in November! It's super easy to use and I love the UI.</p>
+                </div>
+                <div class="box-content">
+                    <img src="/images/62a195379a8eed7e1cc9580a_Quotes.svg" alt="">
+                    <p>I can't imagine my day to day without this platform. Life would be a lot more
+                        difficult.</p>
+                </div>
+                <div class="box-content">
+                    <img src="/images/62a195379a8eed7e1cc9580a_Quotes.svg" alt="">
+                    <p>Half of the offers I give are sourced from AngelList Talent. It's the best product for anyone looking for startup talent.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-caption">
+            <div class="img-caption-split">
+                <div class="img-caption-split-img gfc">
+                    <img src="/images/image4.png" alt="">
+                </div>
+                <div class="img-caption-split-text">
+                    <div>
+                        <h5>GET FEATURED</h5>
+                    </div>
+                    <div>
+                        <h2>Let us show you off</h2>
+                    </div>
+                    <div>
+                        <p>
+                            Apply to be featured and we'll highlight your profile to top recruiters and
+                            companies searching for your specific skills.
+                        </p>
+                        <p>Oh, it's also 100% free.</p>
+                    </div>
+                    <div class="btn-white btn-more">
+                        <a href="#" >Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-caption-split">
+                <div class="img-caption-split-img gfc1">
+                    <img src="/images/image5.png" alt="">
+                </div>
+                <div class="img-caption-split-text">
+                    <div>
+                        <h5>SALARY CALCULATOR</h5>
+                    </div>
+                    <div>
+                        <h2>Know your worth</h2>
+                    </div>
+                    <div>
+                        <p>
+                            We have the data. Research by job title, industry, and company size to find your salary range and be
+                            prepared to nail your negotiations.
+                        </p>
+                    </div>
+                    <div class="btn-white" style="width: 170px;">
+                        <a href="#" >Calculate your salary</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-8">
+            <div>
+                <div class="header-8">
+                    <div>
+                        <h1>From the blog</h1>
+                    </div>
+
+                    <div class="btn-white">
+                        <a href="#">More posts</a>
+                    </div>
+
+                </div>
+                <div class="content-8">
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image7.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <div >
+                                <h5>JOB COLLECTION</h5>
+                                <h2>19 Hot Crypto Startups Hiring Remotely in 2022</h2>
+                                <p>Either Crypto has a great PR team, or the internet-based medium of exchange is truly
+                                    taking the world by storm...</p>
+                                <br>
+                                <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image8.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h5>BLOG POST</h5>
+                            <h2>30 Questions to Ask Before Joining a Startup</h2>
+                            <p>
+                                You're trying to evaluate the company while still impressing your
+                                interviewers, and that balance can tricky...
+                            </p>
+                            <br>
+                            <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image9.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h5>JOB COLLECTION</h5>
+                            <h2>20 Women-Led Startups Expanding Their Remote Teams <br>in 2022</h2>
+                            <p>
+                                It is no surprise by now that women make great leaders. In the US alone, women-led
+                                businesses generated more than 1.8 trillion dollars...
+                            </p>
+                            <br>
+                            <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image10.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h5>BLOG POST</h5>
+                            <h2>The Truth About Finding Your First Engineering Job</h2>
+                            <p>
+                                Even for senior engineers, job searches can be  confusing, frustrating affairs. When
+                                you're a junior  engineer looking for your first job...
+                            </p>
+                            <br>
+                            <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image11.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h5>JOB COLLECTION</h5>
+                            <h2>18 Innovative Space Startups Hiring Now</h2>
+                            <p>
+                                Few tech sectors are capturing the public's  collective imagination as much as
+                                space. Privatized spaceflight, or “NewSpace,” is attracting...
+                            </p>
+                            <br>
+                            <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-image">
+                            <img src="/images/image12.jpeg" alt="">
+                        </div>
+                        <div class="content-text">
+                            <h5>BLOG POST</h5>
+                            <h2>Why Naval Ravikant Thinks Remote Work Is The Future</h2>
+                            <p>
+                                It feels like the rise of remote works has been a top conversation in tech for
+                                years, but despite the enthusiasm and attention...
+                            </p>
+                            <br>
+                            <div class="btn-white btn-more"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-nav">
+
+            <div class="dropdown" onclick="toggleDropdown(this)" onmouseenter="togShow(this)" onmouseleave="togClose(this)">
+                <button class="dropdown-btn">Job Collections
+                    <i class="fa-solid fa fa-chevron-down dropdown-arrow"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Remote First Future Jobs</a>
+                    <a href="#">Jobs for Bootcamp Grads</a>
+                    <a href="#">Junior Software Engineer Jobs</a>
+                    <a href="#">Crypto Startups to Watch Out for</a>
+                    <a href="#">Blockchain Startups That Are Hiring</a>
+                    <a href="#">Companies Hiring Amidst Layoffs</a>
+                    <a href="#">Hot Consumer Fintech Startups</a>
+                    <a href="#">Y Combinator Startup Jobs</a>
+                    <a href="#">Startup Jobs in Bay Area</a>
+                    <a href="#">Top Women-Led Startups</a>
+                    <a href="#">More Job Collections</a>
+                </div>
+            </div>
+            <div class="dropdown" onclick="toggleDropdown(this)" onmouseenter="togShow(this)" onmouseleave="togClose(this)">
+                <button class="dropdown-btn">Remote Jobs
+                    <i class="fa-solid fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Remote Software Engineer Jobs</a>
+                    <a href="#">Remote Product Manager Jobs</a>
+                    <a href="#">Remote Data Analyst Jobs</a>
+                    <a href="#">Remote Product Designer Jobs</a>
+                    <a href="#">Remote Graphic Designer Jobs</a>
+                    <a href="#">Remote Graphic Designer Jobs</a>
+                    <a href="#">Remote UI/UX Designer Jobs</a>
+                    <a href="#">Remote Operations Manager Jobs</a>
+                    <a href="#">Remote Growth Marketer Jobs</a>
+                    <a href="#">Remote Account Manager Jobs</a>
+                    <a href="#">Remote Sales Manager Jobs</a>
+                    <a href="#">Remote Financial Analyst Jobs</a>
+                    <a href="#">Remote HR Manager Jobs</a>
+                    <a href="#">More Remote Jobs</a>
+                </div>
+            </div>
+            <div class="dropdown" onclick="toggleDropdown(this)" onmouseenter="togShow(this)" onmouseleave="togClose(this)">
+                <button class="dropdown-btn">Jobs by Location
+                    <i class="fa-solid fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Jobs in New York City</a>
+                    <a href="#">Jobs in San Francisco</a>
+                    <a href="#">Jobs in Boston</a>
+                    <a href="#">Jobs in Washington DC</a>
+                    <a href="#">Jobs in Denver</a>
+                    <a href="#">Jobs in AustinJobs in Seattle</a>
+                    <a href="#">Jobs in Chicago</a>
+                    <a href="#">Jobs in India</a>
+                    <a href="#"> More Jobs by Location</a>
+                </div>
+            </div>
+            <div class="dropdown" onclick="toggleDropdown(this)" onmouseenter="togShow(this)" onmouseleave="togClose(this)">
+                <button class="dropdown-btn">Jobs by Role
+                    <i class="fa-solid fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Software Engineer Jobs</a>
+                    <a href="#">Product Manager Jobs</a>
+                    <a href="#">Data Analyst Jobs</a>
+                    <a href="#">Product Designer Jobs</a>
+                    <a href="#">Graphic Designer Jobs</a>
+                    <a href="#">UI/UX Designer Jobs</a>
+                    <a href="#">Operations Manager Jobs</a>
+                    <a href="#">Growth Marketer Jobs</a>
+                    <a href="#">Account Manager Jobs</a>
+                    <a href="#">Sales Manager Jobs</a>
+                    <a href="#">Financial Analyst Jobs</a>
+                    <a href="#">HR Manager Jobs</a>
+                </div>
+            </div>
+            <div class="dropdown" onclick="toggleDropdown(this)" onmouseenter="togShow(this)" onmouseleave="togClose(this)">
+                <button class="dropdown-btn">Jobs by Role & Location
+                    <i class="fa-solid fa fa-chevron-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Software Engineer Jobs in San Francisco</a>
+                    <a href="#">Software Engineer Jobs in New York City</a>
+                    <a href="#">Software Engineer Jobs in Los Angeles</a>
+                    <a href="#">Product Manager Jobs in San Francisco</a>
+                    <a href="#">Product Manager Jobs in New York City</a>
+                    <a href="#">Product Manager Jobs in Los Angeles</a>
+                    <a href="#">Frontend Developer Jobs in San Francisco</a>
+                    <a href="#">Frontend Developer Jobs in New York City</a>
+                    <a href="#">Frontend Developer Jobs in Los Angeles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="details">
+                <div class="logo">
+                    <div>
+                        <a href="#">
+                            <img src="https://assets.website-files.com/61f063412698c3c0331848b0/6225831abd957d511480da22_Logo.svg"
+                                alt="">
+                        </a>
+                    </div>
+                    <div style="margin: 15px 0;">
+                        <a href="#"><i class="fa-brands fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="content-container">
+                        <div style="margin-right: 60px;">
+                            <p><b>ForCandidates</b></p>
+                            <div class="links">
+                                <a href="">Overview</a>
+                                <a href="">Startup Jobs</a>
+                                <a href="">Web3JObs</a>
+                                <a href="">Featured</a>
+                                <a href="">Remote</a>
+                                <a href="">SalaryCalculator</a>
+                            </div>
+                        </div>
+                        <div style="margin-right: 60px;">
+                            <p><b>For Recruiters</b></p>
+                            <div class="links">
+                                <a href="">Overview</a>
+                                <a href="">Recruit pro</a>
+                                <a href="">Curated</a>
+                                <a href="">Remote</a>
+                                <a href="">Hire Developers</a>
+                                <a href="">Pricing</a>
+                            </div>
+                        </div>
+                        <div style="margin-right: 60px;">
+                            <p><b>Company</b></p>
+                            <div class="links">
+                                <a href="#">About</a>
+                                <a href="#">AngelList Venture</a>
+                                <a href="#">We're Hiring</a>
+                                <a href="#">Help</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Terms & Risks</a>
+                                <a href="#">Privacy & Cookies</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div>
+                    <p>Copyright © 2022 AngelList Talent. All rights reserved.</p>
+                </div>
+                <div>
+                    <p>Browse by:
+                        <a href="#">Jobs</a>
+                        <a href="#">Remote Jobs</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
